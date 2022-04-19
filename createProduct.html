@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Crear producto</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="icon" href="./kc-logo.png" />
+  </head>
+  <body>
+    <main>
+      <section class="create-product">
+        <form id="createProductForm" novalidate>
+          <div class="item-wrapper">
+            <label for="title">título</label>
+            <input type="text" name="title" id="title" required />
+          </div>
+
+          <div class="item-wrapper">
+            <label for="description">descripción</label>
+            <textarea
+              name="description"
+              id="description"
+              cols="35"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <div class="item-wrapper">
+            <label for="price">precio</label>
+            <input type="number" name="price" id="price" min="1" required />
+          </div>
+
+          <div class="item-wrapper">
+            <label for="image">Imagen</label>
+            <input type="file" accept="image/*" name="image" id="image" />
+          </div>
+
+          <div class="item-wrapper">
+            <label>Tipo de anuncio</label>
+
+            <div class="single-option-wrapper">
+              <label for="buy">Compra</label>
+              <input type="radio" name="type" id="buy" value="buy" required />
+
+              <label for="sell">Venta</label>
+              <input type="radio" name="type" id="sell" value="sell" required />
+            </div>
+          </div>
+
+          <div class="item-wrapper">
+            <label for="categories">categoría</label>
+            <select name="categories" id="categories" required>
+              <option value="*">sin categorizar</option>
+              <option value="coches">coches</option>
+              <option value="motos">motos</option>
+              <option value="moda">moda</option>
+              <option value="inmobiliaria">inmobiliaria</option>
+              <option value="electronica">electrónica</option>
+              <option value="moviles">móviles</option>
+              <option value="deporte">deporte</option>
+              <option value="informatica">informática</option>
+              <option value="consolas">consolas y videojuegos</option>
+              <option value="electrodomesticos">electrodomésticos</option>
+            </select>
+          </div>
+
+          <button type="submit" disabled>Crear Producto</button>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="./create-product/create-product.js"></script>
+  </body>
+</html>

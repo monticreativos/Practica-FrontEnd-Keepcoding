@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "$2b$10$baEwt7noKP9d8flMhmHFxObMdIcJHw.ImMYkbrq9pEwFDs8NTHp.G",
+      "id": 1
+    },
+    {
+      "username": "user2",
+      "password": "$2b$10$baEwt7noKP9d8flMhmHFxOc.eWvyTM15yIOHPGVMGsMdtpJlWCfL6",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "title": "Audi A3 270CV",
+      "description": "Se vende audi a3 color rojo, año 2020. Muy cuidado, con todos los extras.",
+      "price": "17999",
+      "type": "sell",
+      "category": "coches",
+      "image": "http://localhost:8000//file-1645455448430.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T14:57:28.478Z",
+      "id": 1
+    },
+    {
+      "title": "Ducati Panigale",
+      "description": "Vendo Ducati Panigale V4 221CV del año 2019. ",
+      "price": "12500",
+      "type": "sell",
+      "category": "motos",
+      "image": "http://localhost:8000//file-1645455780596.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:03:00.611Z",
+      "id": 2
+    },
+    {
+      "title": "Autobús",
+      "description": "Busco comprar un autobús, que esté en buen estado y que no tenga muchos kilómetros.",
+      "price": "25000",
+      "type": "buy",
+      "category": "*",
+      "image": "http://localhost:8000//file-1645455876853.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:04:36.863Z",
+      "id": 3
+    },
+    {
+      "title": "Macbook pro",
+      "description": "Vendo macbook pro de 2021, con 16GB de RAM y un ssd de 1TB. Regalo funda",
+      "price": "1100",
+      "type": "sell",
+      "category": "informatica",
+      "image": "http://localhost:8000//file-1645456380463.jpg",
+      "userId": 1,
+      "updatedAt": "2022-02-21T15:13:00.473Z",
+      "id": 4
+    },
+    {
+      "title": "Xiaomi mi 10",
+      "description": "Busco Xiaomi mi 10 que esté en buen estado. Lo busco con cargador original.",
+      "price": "200",
+      "type": "buy",
+      "category": "moviles",
+      "image": "http://localhost:8000//file-1645456468498.jpg",
+      "userId": 1,
+      "updatedAt": "2022-02-21T15:14:28.508Z",
+      "id": 5
+    },
+    {
+      "title": "Producto sin imagen",
+      "description": "Ejemplo de producto que no tiene imagen para que salga una foto por defecto.",
+      "price": "1",
+      "type": "sell",
+      "category": "*",
+      "userId": 1,
+      "updatedAt": "2022-02-21T15:14:59.308Z",
+      "id": 6
+    },
+    {
+      "title": "Logitech g502",
+      "description": "Compro ratón logitech G502, me da igual si es la versión con cable o wireless.",
+      "price": "45",
+      "type": "buy",
+      "category": "informatica",
+      "image": "http://localhost:8000//file-1645456679387.jpg",
+      "userId": 1,
+      "updatedAt": "2022-02-21T15:17:59.396Z",
+      "id": 7
+    },
+    {
+      "title": "Pântalla 34\"",
+      "description": "Compro pantalla de 34\" QHD (3440x1440). Tiene que estar en perfecto estado sin ningún pixel muerto.",
+      "price": "300",
+      "type": "buy",
+      "category": "informatica",
+      "image": "http://localhost:8000//file-1645456864745.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:21:04.755Z",
+      "id": 8
+    },
+    {
+      "title": "Lavadora",
+      "description": "Vendo lavadora con 1 año de uso, la vendo por mudanza.",
+      "price": "150",
+      "type": "sell",
+      "category": "electrodomesticos",
+      "image": "http://localhost:8000//file-1645457016607.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:23:36.617Z",
+      "id": 9
+    },
+    {
+      "title": "Pala pádel bullpadel",
+      "description": "Vendo pala pádel color rojo, tiene 3 partidos solamente.",
+      "price": "70",
+      "type": "sell",
+      "category": "deporte",
+      "image": "http://localhost:8000//file-1645457521099.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:32:01.111Z",
+      "id": 10
+    },
+    {
+      "title": "Camiseta",
+      "description": "busco camiseta como la de la foto, que sea exactamente igual.",
+      "price": "45",
+      "type": "buy",
+      "category": "moda",
+      "image": "http://localhost:8000//file-1645457601485.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:33:21.493Z",
+      "id": 11
+    },
+    {
+      "title": "Chalet",
+      "description": "Vendo chalet con 1500metros cuadrados. Tiene 6 habitaciones, 4 baños, garaje, pista de pádel y piscina. ",
+      "price": "500000",
+      "type": "sell",
+      "category": "inmobiliaria",
+      "image": "http://localhost:8000//file-1645457713522.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:35:13.533Z",
+      "id": 12
+    },
+    {
+      "title": "Crash Bandicoot 3",
+      "description": "busco este juegazo de play 1. Tiene que estar en buen estado y por supuesto, que el disco no esté rayado.",
+      "price": "45",
+      "type": "buy",
+      "category": "consolas",
+      "image": "http://localhost:8000//file-1645457790528.jpg",
+      "userId": 2,
+      "updatedAt": "2022-02-21T15:36:30.593Z",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+header {
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.5);
+  padding: 6px 2rem;
+}
+
+header a {
+  height: 100%;
+}
+
+header img {
+  width: 48px;
+  border-radius: 10px;
+}
+
+header input {
+  min-width: 100px;
+  height: 70%;
+}
+
+header .auth-buttons-wrapper button + button {
+  margin-left: 1rem;
+}
+
+header .user-options-wrapper {
+  align-items: center;
+}
+
+header .user-options-wrapper button {
+  margin-left: 1rem;
+}

@@ -1,0 +1,110 @@
+@import url('./shared/header/header.css');
+@import url('./shared/spinner/spinner.css');
+@import url('./shared/notification/notification.css');
+
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+:root {
+  --primary: #13C1Ac;
+  --secondary: #542E71;
+  --ternary: #80A4ED;
+  --error: #EE2E31;
+}
+
+html, body {
+  margin: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue";
+}
+
+body {
+  display: grid;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: "header"
+                       "main";
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+
+  padding: 2rem;
+  position: relative;
+  overflow-y: auto;
+}
+
+main > section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: no-drop;
+}
+
+input {
+  border-radius: 6px;
+  border-style: solid;
+  min-height: 30px;
+}
+
+input[type=file] {
+  border: none;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form div + div {
+  margin-top: 1rem;
+}
+
+form .item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form div.item-wrapper > label {
+  width: 150px;
+}
+
+.single-option-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.single-option-wrapper input {
+  margin-right: 1rem;
+}
+
+form > button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

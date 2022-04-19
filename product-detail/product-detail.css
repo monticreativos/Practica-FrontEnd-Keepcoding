@@ -1,0 +1,11 @@
+.remove-button-wrapper {
+  position: absolute;
+
+  top: 2rem;
+  right: 2rem;
+}
+
+.remove-button-wrapper button {
+  background-color: var(--error);
+  color: white;;
+}
